@@ -1,0 +1,17 @@
+.home {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.wrapper {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+   grid-auto-rows: 490px;
+   justify-content: center;
+   grid-gap: 5rem;
+   margin: 1rem;
+   background-image: linear-gradient(0deg, #b13cff, #dd45d3 50%, #fd9d52);
+}
+
+
+
